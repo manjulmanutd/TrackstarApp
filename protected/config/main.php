@@ -56,7 +56,10 @@ return array(
 			'connectionString' => 'mysql:host=localhost;dbname=db_trackstar',
 			'emulatePrepare' => true,
 			'username' => 'root',
-			'password' => 'Manutd1234*',
+			// For Home
+			//'password' => 'Manutd1234*',
+			// For Office
+			'password' => '',
 			'charset' => 'utf8',
 		),
 		
