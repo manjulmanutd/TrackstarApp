@@ -1,6 +1,6 @@
 <?php
-/* @var $this ProjectController */
-/* @var $model Project */
+/* @var $this IssueController */
+/* @var $model Issue */
 /* @var $form CActiveForm */
 ?>
 
@@ -18,12 +18,37 @@
 
 	<div class="row">
 		<?php echo $form->label($model,'name'); ?>
-		<?php echo $form->textField($model,'name',array('size'=>60,'maxlength'=>128)); ?>
+		<?php echo $form->textField($model,'name',array('size'=>60,'maxlength'=>256)); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->label($model,'description'); ?>
-		<?php echo $form->textArea($model,'description',array('rows'=>6, 'cols'=>50)); ?>
+		<?php echo $form->textField($model,'description',array('size'=>60,'maxlength'=>2000)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'project_id'); ?>
+		<?php echo $form->textField($model,'project_id'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'type_id'); ?>
+		<?php echo $form->textField($model,'type_id'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'status_id'); ?>
+		<?php echo $form->textField($model,'status_id'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'owner_id'); ?>
+		<?php echo $form->textField($model,'owner_id'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'requester_id'); ?>
+		<?php echo $form->textField($model,'requester_id'); ?>
 	</div>
 
 	<div class="row">

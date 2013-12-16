@@ -25,6 +25,16 @@ Tasks:
 	d. Add a delete button to the project listing to allow for project deletion
 
  
-	
+Iteration 3:
+---------------------
+1. Design the database schema, and build the projects to support project issues.
+2. Create a Yii model classes that allow the application to easily interact with the database tables created.
+3. Create the controller class that will house the functionality to allow us to:
+	a. Create new issues.
+	b. Fetch a list of existing issues within the project from the database.
+	c. Update/edit existing issues
+	d. Delete existing issues
+4. Create views to render user interfaces for these preceding actions.
+
 
 

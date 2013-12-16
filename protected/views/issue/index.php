@@ -1,18 +1,18 @@
 <?php
-/* @var $this ProjectController */
+/* @var $this IssueController */
 /* @var $dataProvider CActiveDataProvider */
 
 $this->breadcrumbs=array(
-	'Projects',
+	'Issues',
 );
 
 $this->menu=array(
-	array('label'=>'Create Project', 'url'=>array('create')),
-	array('label'=>'Manage Project', 'url'=>array('admin')),
+	array('label'=>'Create Issue', 'url'=>array('create')),
+	array('label'=>'Manage Issue', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Projects</h1>
+<h1>Issues</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,
